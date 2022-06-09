@@ -14,5 +14,5 @@ randomNumber(0, 50);
 // Функция для проверки максимальной длины строки.
 
 const MAX_LENGTH = 140;
-const IsStringTooLong = (string) => (string.length <= MAX_LENGTH);
-IsStringTooLong('');
+const isStringTooLong = (string) => (string.length <= MAX_LENGTH);
+isStringTooLong('');
