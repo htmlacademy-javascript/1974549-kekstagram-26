@@ -41,7 +41,7 @@ const creatComment = (comId) => ({
 
 const createComments = (number) => Array.from({
   length: number
-}, (i) => creatComment(i));
+}, (_, i) => creatComment(i));
 
 const createPhoto = (comId) => ({
   id: comId,

@@ -11,13 +11,13 @@ const randomNumber = (min, max) => {
 
 const getRandomArrayElements = (elements) => elements[randomNumber(0, elements.length - 1)];
 
-export {
-  getRandomArrayElements,
-  randomNumber
-};
-
 // Функция для проверки максимальной длины строки.
 
 const MAX_LENGTH = 140;
 const isStringTooLong = (string) => (string.length <= MAX_LENGTH);
 isStringTooLong('');
+
+export {
+  getRandomArrayElements,
+  randomNumber,
+};
