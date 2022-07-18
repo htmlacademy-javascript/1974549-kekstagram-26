@@ -17,7 +17,12 @@ const MAX_LENGTH = 140;
 const isStringTooLong = (string) => (string.length <= MAX_LENGTH);
 isStringTooLong('');
 
+const isEscapeKey = (evt) => evt.key === 'Escape';
+
 export {
   getRandomArrayElements,
   randomNumber,
+  isEscapeKey,
+  isStringTooLong,
+  MAX_LENGTH
 };
